@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+import Body from './component/Body';
+import Header from './component/Header';
+import { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom';
 import './App.css';
+import DiscountBanner from './component/DicountBanner';
+import MenComponent from './component/MenComponent';
+import WomenComponent from './component/WomenComponent';
+const appRouter = createBrowserRouter([{
+  
+  children:[
+    {
+      path:"/",
+      element:<Body />,
+    },
+    {
+      path: "/men" ,
+      element: <MenComponent /> ,
+    },
+    {
+      path: "/women" ,
+      element: <WomenComponent />,
+    }
+  ]
+}])
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <DiscountBanner />
+      <Outlet />
+<RouterProvider router={appRouter}/>
     </div>
   );
 }
