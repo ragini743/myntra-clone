@@ -37,5 +37,17 @@ export const womenImg5 ="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_p
 export const womenImg6 = commonUrl+"d5ca6391-842f-4cb2-8730-596dc244a3641698491510443-Mango-_Trendyol_-_more_Min_50_off.png"
 export const womenImg7 = commonUrl+"c5509cee-0e06-4d78-9aba-703705bd7e1c1698491508837-Upto_70_off.png"
 export const womenImg8= commonUrl+"5896e1b5-acc9-40f7-8218-94934f158a9d1698491510429-upto_70_off.png"
-// export womentImg9= commonUrl+""
+
+export const womenCategoryImg1 =commonCategoryURL+"11f05fe9-c6b9-47a2-a9ad-626bd39aa19e1698732263536-Shop-By-Category_WP-_02.jpg";
+export const womenCategoryImg2 =commonCategoryURL+"6dda0443-df51-49b0-9094-7dd60533913d1698732263382-Shop-By-Category_WP-_03.jpg";
+export const womenCategoryImg3 =commonCategoryURL+"305462a2-4115-4185-9909-4c5514ead5e51698732263412-Shop-By-Category_WP-_04.jpg";
+export const womenCategoryImg4 =commonCategoryURL+"a815dbfe-cb2e-49ab-9baa-55f8ec17e6bb1698740797426-Shop-By-Category_WP-_05.jpg";
+export const womenCategoryImg5 =commonCategoryURL+"d318a859-d770-43e0-9a22-3bbfbe14f19a1698732263564-Shop-By-Category_WP-_06.jpg";
+export const womenCategoryImg6 =commonCategoryURL+"0a5d90b5-9502-4786-8b7e-b8d9bf0151951698732263398-Shop-By-Category_WP-_07.jpg";
+export const womenCategoryImg7 =commonCategoryURL+"c8e7a242-7952-4179-bfca-eeeef0eee1301698732263497-Shop-By-Category_WP-_08.jpg";
+export const womenCategoryImg8 =commonCategoryURL+"ec391a0b-f6e9-4bf0-aac1-1abceb52887e1698732263469-Shop-By-Category_WP-_09.jpg";
+export const womenCategoryImg9 =commonCategoryURL+"5c7f94e0-09cc-4ac5-a1db-d44e4f4ee42f1698732263483-Shop-By-Category_WP-_10.jpg";
+export const womenCategoryImg10 =commonCategoryURL+"601b0ffc-06ed-406f-9995-0cbf06c5db721698732263549-Shop-By-Category_WP-_11.jpg";
+export const womenCategoryImg11 =commonCategoryURL+"edc91b77-ba5f-407d-8300-7a7c73e5c0571698732263438-Shop-By-Category_WP-_12.jpg";
+export const womenCategoryImg12 =commonCategoryURL+"e7682aff-6506-4c39-ab9c-7ef45ce62a9b1698732263512-Shop-By-Category_WP-_13.jpg";
 
