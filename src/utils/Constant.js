@@ -50,4 +50,30 @@ export const womenCategoryImg9 =commonCategoryURL+"5c7f94e0-09cc-4ac5-a1db-d44e4
 export const womenCategoryImg10 =commonCategoryURL+"601b0ffc-06ed-406f-9995-0cbf06c5db721698732263549-Shop-By-Category_WP-_11.jpg";
 export const womenCategoryImg11 =commonCategoryURL+"edc91b77-ba5f-407d-8300-7a7c73e5c0571698732263438-Shop-By-Category_WP-_12.jpg";
 export const womenCategoryImg12 =commonCategoryURL+"e7682aff-6506-4c39-ab9c-7ef45ce62a9b1698732263512-Shop-By-Category_WP-_13.jpg";
+export const womenBanner= commonCategoryURL+"9780a1fe-4fd3-42c6-a33e-6090e3ea07691698764168633-Desktop-banner_01.jpg"
+export const menBanner =commonCategoryURL+"2d6b7a55-6816-4bc1-8907-0149286141c51698764168626-Desktop-banner_02--1-.jpg";
 
+// for MainContainer
+export const mainContainerImg1 = commonCategoryURL+"9797b925-a925-40c2-b253-b37da20bb81d1698730477309-Shop-By-Category_HP_02.jpg";
+
+export const mainContainerImg2 = commonCategoryURL+"af7936fe-7651-4aee-9c14-fa3c229941bc1698730477370-Shop-By-Category_HP_03.jpg";
+export const mainContainerImg3 = commonCategoryURL+"c8504032-4d95-4c38-bef9-d0f71fee5e0e1698730476998-Shop-By-Category_HP_04.jpg";
+export const mainContainerImg4 = commonCategoryURL+"401075b3-439e-4936-85d3-491a4394ff9d1698730477192-Shop-By-Category_HP_05.jpg";
+export const mainContainerImg5 = commonCategoryURL+"4e313406-820b-4725-b82f-7d873e1e60f61698730477112-Shop-By-Category_HP_06.jpg";
+export const mainContainerImg6 = commonCategoryURL+"7367d37b-9c8b-4e71-ac9e-16f9c356bfc81698730477154-Shop-By-Category_HP_07.jpg";
+export const mainContainerImg7 = commonCategoryURL+"66588baa-4d99-4892-b2d6-1e31bc0ccfbc1698730477030-Shop-By-Category_HP_08.jpg";
+export const mainContainerImg8 = commonCategoryURL+"b68b88b7-4788-4c46-86f8-cf504cfcf0051698730477414-Shop-By-Category_HP_09.jpg";
+export const mainContainerImg9 = commonCategoryURL+"e1ac3b12-c4ff-474f-8944-cf06a740c1f71698730477067-Shop-By-Category_HP_10.jpg";
+export const mainContainerImg10 = commonCategoryURL+"8f0f0f87-4a97-4d21-91f1-7b9eec8f92a81698730476980-Shop-By-Category_HP_11.jpg";
+export const mainContainerImg11 = commonCategoryURL+"2a2632cc-25ae-46b3-b883-385bff4933251698730477338-Shop-By-Category_HP_12.jpg";
+export const mainContainerImg12 = commonCategoryURL+"b17c8768-cd75-4a5c-a9f2-24029df0b15d1698730477281-Shop-By-Category_HP_13.jpg";
+export const mainContainerImg13 = commonCategoryURL+"7ae17455-db1c-4e0a-9557-8510c89c6c961698730477323-Shop-By-Category_HP_14.jpg";
+export const mainContainerImg14 = commonCategoryURL+"979350ec-a623-424d-8eda-c2aa6c8157f21698730477206-Shop-By-Category_HP_15.jpg";
+export const mainContainerImg15= commonCategoryURL+"3fc94835-6600-4533-96e0-689cd08008681698730477467-Shop-By-Category_HP_16.jpg";
+export const mainContainerImg16 = commonCategoryURL+"f4348190-892c-411d-a9b5-3de3694651b31698730477220-Shop-By-Category_HP_17.jpg";
+export const mainContainerImg17 = commonCategoryURL+"5da5327b-7c2d-4d81-9592-5ef44cdd4e8e1698730477233-Shop-By-Category_HP_18.jpg";
+export const mainContainerImg18 = commonCategoryURL+"ad0fd1b0-a637-4486-ae84-019b0ba5fa8a1698730477168-Shop-By-Category_HP_19.jpg";
+export const mainContainerImg =[mainContainerImg1,mainContainerImg2,mainContainerImg3,mainContainerImg4,mainContainerImg5,mainContainerImg6,mainContainerImg7,mainContainerImg8,mainContainerImg9,mainContainerImg10,mainContainerImg11,mainContainerImg12,mainContainerImg13,mainContainerImg14,mainContainerImg15,mainContainerImg16,mainContainerImg17,mainContainerImg18]
+
+
+export const searchResultAPI = "https://www.myntra.com/search?q=";

@@ -29,10 +29,9 @@ const appRouter = createBrowserRouter([{
 function App() {
   return (
     <div className="App">
-      <Header />
       <DiscountBanner />
-      {/* <Outlet /> */}
-<RouterProvider router={appRouter} />
+      <RouterProvider router={appRouter}>
+      </RouterProvider>
     </div>
   );
 }
