@@ -3,7 +3,7 @@ import CrazyOffer from "./CrazyOffer";
 import Category from "./Category";
 const MenComponent=()=>{
     return(
-        <div>
+        <div>dfgh
            <FestivalBanner />
             <CrazyOffer />
             <Category />
