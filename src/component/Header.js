@@ -3,21 +3,19 @@ import { myntra_Logo, searchResultAPI } from "../utils/Constant"
 import { Link } from "react-router-dom";
 // import { BrowserRouter, Route, Router, Routes } from "react-router-dom"
 
-const Header = () =>{
+const Header = () => {
     const [searchSuggestion,setSearchSuggestion]=useState([])
-    const [searchQuery,setSearchQuery] = useState("")
-    useEffect(()=>{getSearchSuggestion()},[searchQuery])
-    const getSearchSuggestion=async () =>{
-const data=await fetch(searchResultAPI+searchQuery);
-const json =await data.json;
-console.log("json",json)
-    }
-    console.log("searchQuery",searchQuery)
+//     const [searchQuery,setSearchQuery] = useState("")
+//     useEffect(()=>{getSearchSuggestion()},[searchQuery])
+//     const getSearchSuggestion = async () => {
+// const data = await fetch(searchResultAPI);
+// console.log("data",data);
+// console.log("hello");
+// const json = await data.json;
+// console.log("json",json);
+//     }
 
-
-
-
-
+//     console.log("searchQuery",searchQuery)
 
     return(
         <div className="p-4 fixed bg-white flex top-0 items-center  w-[100%] justify-evenly">
@@ -37,7 +35,7 @@ console.log("json",json)
             </div>
             <div className="border-gray-300 border-2 md:mr-6 md:w-[30%]">
                 <input type="text"placeholder="search for products.."className="w-full bg-gray-200 text-black opacity-100 p-2"
-                value={searchQuery} onChange={(e)=>(setSearchQuery(e.target.value))}
+                
                 ></input>
             </div>
             <div className="md:flex md:w-25% md:justify-evenly">

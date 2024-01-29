@@ -76,4 +76,6 @@ export const mainContainerImg18 = commonCategoryURL+"ad0fd1b0-a637-4486-ae84-019
 export const mainContainerImg =[mainContainerImg1,mainContainerImg2,mainContainerImg3,mainContainerImg4,mainContainerImg5,mainContainerImg6,mainContainerImg7,mainContainerImg8,mainContainerImg9,mainContainerImg10,mainContainerImg11,mainContainerImg12,mainContainerImg13,mainContainerImg14,mainContainerImg15,mainContainerImg16,mainContainerImg17,mainContainerImg18]
 
 
-export const searchResultAPI = "https://www.myntra.com/search?q=";
+export const searchResultAPI = 'https://corsproxy.org/http://www.myntra.com/gateway/v1/search/autosuggest?q=ear'
+// key=key=AIzaSyBAubYkDr5e2UiKeBY1IZwlhMifex3urdc
+// https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&key=AIzaSyBAubYkDr5e2UiKeBY1IZwlhMifex3urdc&q=
